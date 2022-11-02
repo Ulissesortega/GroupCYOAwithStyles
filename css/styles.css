@@ -1,10 +1,17 @@
-/*--------------------------Eliazar------------------------------------------------*/
+/*--------------------------Elizar------------------------------------------------*/
 body {
   background-image: url(""), url("paper.gif");
   background-color: #cccccc;
 }
-
-
+.container
+{
+height:125vh;
+    width: 100%;
+    background-image:url(../assets/HD-wallpaper-paper-texture-black.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
 
 
 
