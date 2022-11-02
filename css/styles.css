@@ -1,15 +1,15 @@
 /*--------------------------Eliazar------------------------------------------------*/
 body {
-    background-image: url(""), url("paper.gif");
-    background-color: #cccccc;
-  }
+  background-image: url(""), url("paper.gif");
+  background-color: #cccccc;
+}
 
 
 
 
 
 
-  /*--------------------------Manuel------------------------------------------------*/
+/*--------------------------Manuel------------------------------------------------*/
 
 
 
@@ -20,33 +20,50 @@ body {
 
 
 
-  /*--------------------------Ulises------------------------------------------------*/
-  .mainPage { 
-    background: url(../assets/RedBluePill.jpg) no-repeat center center fixed; 
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    height: 100vh;
-  }
-  .page1 { 
-    background: url(../assets/future.jpg) no-repeat center center fixed; 
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    height: 100vh;
-  }
+/*--------------------------Ulises------------------------------------------------*/
+.mainPage {
+  background: url(../assets/RedBluePill.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 100vh;
+}
 
-  .linkdown {
-    display: flex;
-    align-items: flex-end;
-  }
+.page1 {
+  background: url(../assets/future.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 100vh;
+}
 
-  .CenterText
-  {
-    color:white;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
+.linkdown {
+  display: flex;
+  align-items: flex-end;
+}
+
+.CenterText {
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.ButtonSpace {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.TextFormat {
+  color: white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: medium;
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-inline: 150px;
+
+}
