@@ -22,6 +22,8 @@ body {
 
 
 
+
+
 /*--------------------------Ulises------------------------------------------------*/
 .mainPage {
   background: url(../assets/RedBluePill.jpg) no-repeat center center fixed;
@@ -33,7 +35,7 @@ body {
 }
 
 .page1 {
-  background: url(../assets/future.jpg) no-repeat center center fixed;
+  background: url(../assets/SickPerson.jpg) no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -61,12 +63,14 @@ body {
 .TextFormat {
   color: white;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  font-size: medium;
-  background-color: black;
+  font-size: large;
+  background-color:black;
+  text-align: center;
+  
   display: flex;
-  align-items: center;
   justify-content: center;
-  margin-inline: 150px;
+  align-items: flex-end;
+  margin-inline: 350px;
 
 }
 
