@@ -1,10 +1,21 @@
-/*--------------------------Eliazar------------------------------------------------*/
+/*--------------------------Elizar------------------------------------------------*/
 body {
   background-image: url(""), url("paper.gif");
   background-color: #cccccc;
 }
-
-
+.BluePill
+{
+height:125vh;
+    width: 100%;
+    background-image:url(../assets/HD-wallpaper-paper-texture-black.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+.ivory
+{
+  color: ivory;
+}
 
 
 
@@ -12,7 +23,20 @@ body {
 /*--------------------------Manuel------------------------------------------------*/
 
 .Sick1{
-  text-align: center;
+  display: flex;
+  justify-content: center;
+  background: url(../assets/Sick.gif) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 100vh;
+  
+}
+.WorkBtn{
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 
