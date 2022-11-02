@@ -8,7 +8,7 @@ body {
 
 
 
-  
+
   /*--------------------------Manuel------------------------------------------------*/
 
 
@@ -20,4 +20,33 @@ body {
 
 
 
-  /*--------------------------Ulises------------------------------------------------*?
+  /*--------------------------Ulises------------------------------------------------*/
+  .mainPage { 
+    background: url(../assets/RedBluePill.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 100vh;
+  }
+  .page1 { 
+    background: url(../assets/future.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 100vh;
+  }
+
+  .linkdown {
+    display: flex;
+    align-items: flex-end;
+  }
+
+  .CenterText
+  {
+    color:white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
