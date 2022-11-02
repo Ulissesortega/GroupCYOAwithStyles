@@ -3,7 +3,7 @@ body {
   background-image: url(""), url("paper.gif");
   background-color: #cccccc;
 }
-.container
+.BluePill
 {
 height:125vh;
     width: 100%;
@@ -23,7 +23,20 @@ height:125vh;
 /*--------------------------Manuel------------------------------------------------*/
 
 .Sick1{
-  text-align: center;
+  display: flex;
+  justify-content: center;
+  background: url(../assets/Sick.gif) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 100vh;
+  
+}
+.WorkBtn{
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 
