@@ -43,6 +43,18 @@ body {
   height: 100vh;
 }
 
+.page5 {
+  background: url(../assets/portals.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 100vh;
+}
+
+
+
+
 .linkdown {
   display: flex;
   align-items: flex-end;
@@ -96,6 +108,10 @@ body {
   justify-content: center;
 }
 
+.audio{
+  display: flex;
+  justify-content: end; 
+}
 
 
 
