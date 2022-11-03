@@ -61,8 +61,66 @@ h1
   
 }
 .WorkBtn{
+  font-size: x-large;
   display: flex;
   justify-content: space-evenly;
+}
+.NoPill{
+  font-size: xx-large;
+}
+.col-12{
+  font-size: xx-large;
+}
+.GoToWork{
+  display: flex;
+  justify-content: center;
+  background: url(../assets/MANLOOKINGATSUNSET_1920.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 100vh;
+}
+.Quiting{
+  display: flex;
+  justify-content: center;
+  background: url(../assets/Happy.webp) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 100vh;
+}
+.QT{
+  color: whitesmoke;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+.col-7{
+  font-size: xx-large;
+  display: flex;
+  justify-content: space-evenly;
+}
+.col-14{
+  font-size: xx-large;
+}
+.col-20{
+  font-size: xx-large;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  color: whitesmoke;
+}
+.Mind{
+  display: flex;
+  justify-content: center;
+  background: url(../assets/Pill.jpeg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 100vh;
 }
 
 
@@ -103,6 +161,23 @@ h1
   height: 100vh;
 }
 
+.past {
+  background: url(../assets/ironman.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 100vh;
+}
+
+.future {
+  background: url(../assets/alien.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 100vh;
+}
 
 
 
@@ -126,15 +201,14 @@ h1
 .TextFormat {
   color: white;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  font-size: large;
+  font-size: x-large;
   background-color:black;
   text-align: center;
   
   display: flex;
   justify-content: center;
   align-items: flex-end;
-  margin-inline: 350px;
-
+  margin-inline: 300px;
 }
 
 .blueText{
@@ -159,9 +233,14 @@ h1
   justify-content: center;
 }
 
-.audio{
-  display: flex;
-  justify-content: end; 
+.loc{
+display: flex;
+justify-content:center;
+}
+
+.end{
+  color:white;
+
 }
 
 
