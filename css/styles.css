@@ -3,7 +3,7 @@ body {
   background-image: url(""), url("paper.gif");
   background-color: #cccccc;
 }
-.container
+.BluePill
 {
 height:450vh;
     width: 100%;
@@ -24,10 +24,7 @@ h1
   text-align: center;
   text-decoration: underline;
 }
-.knight
-{
-  
-}
+
 
 
 
@@ -35,8 +32,21 @@ h1
 /*--------------------------Manuel------------------------------------------------*/
 
 .Sick1{
-  text-align: center;
+  display: flex;
+  justify-content: center;
+  background: url(../assets/Sick.gif) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 100vh;
+  
 }
+.WorkBtn{
+  display: flex;
+  justify-content: space-evenly;
+}
+
 
 
 
@@ -65,6 +75,18 @@ h1
   background-size: cover;
   height: 100vh;
 }
+
+.page5 {
+  background: url(../assets/portals.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 100vh;
+}
+
+
+
 
 .linkdown {
   display: flex;
@@ -119,6 +141,10 @@ h1
   justify-content: center;
 }
 
+.audio{
+  display: flex;
+  justify-content: end; 
+}
 
 
 
