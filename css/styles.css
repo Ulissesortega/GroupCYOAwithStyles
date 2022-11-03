@@ -63,7 +63,47 @@ h1
   background-size: cover;
   height: 100vh;
 }
-
+.Quiting{
+  display: flex;
+  justify-content: center;
+  background: url(../assets/Happy.webp) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 100vh;
+}
+.QT{
+  color: whitesmoke;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+.col-7{
+  font-size: xx-large;
+  display: flex;
+  justify-content: space-evenly;
+}
+.col-14{
+  font-size: xx-large;
+}
+.col-20{
+  font-size: xx-large;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  color: whitesmoke;
+}
+.Mind{
+  display: flex;
+  justify-content: center;
+  background: url(../assets/Pill.jpeg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 100vh;
+}
 
 
 
