@@ -3,10 +3,28 @@ body {
   background-image: url(""), url("paper.gif");
   background-color: #cccccc;
 }
-.BluePill
+.BluePillOne
 {
-height:450vh;
+height:430vh;
     width: 100%;
+    background-image:url(../assets/HD-wallpaper-paper-texture-black.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+.BluePillTwo
+{
+  height: 700vh;
+  width: 100%;
+    background-image:url(../assets/HD-wallpaper-paper-texture-black.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+.BluePillThree
+{
+  height: 600vh;
+  width: 100%;
     background-image:url(../assets/HD-wallpaper-paper-texture-black.jpg);
     background-size: cover;
     background-position: center;
