@@ -34,9 +34,27 @@ height:125vh;
   
 }
 .WorkBtn{
+  font-size: x-large;
   display: flex;
   justify-content: space-evenly;
 }
+.NoPill{
+  font-size: xx-large;
+}
+.col-12{
+  font-size: xx-large;
+}
+.GoToWork{
+  display: flex;
+  justify-content: center;
+  background: url(../assets/MANLOOKINGATSUNSET_1920.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 100vh;
+}
+
 
 
 
